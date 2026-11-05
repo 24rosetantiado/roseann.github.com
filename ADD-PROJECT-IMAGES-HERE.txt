@@ -1,0 +1,1 @@
+Place project screenshots here and update their image paths in index.html.

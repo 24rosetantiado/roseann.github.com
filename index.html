@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0e">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Portfolio of Rose Ann T. Tantiado, Virtual Assistant, GoHighLevel Website Builder, Social Media Manager, and Digital Marketing Assistant.">
+  <title>Rose Ann T. Tantiado | Virtual Assistant & Digital Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b0b0e;--panel:#15151b;--panel-alt:#1b1b22;--white:#f8f8fa;--muted:#acacb6;--gold:#e3b75d;--red:#cc3345;--line:rgba(255,255,255,.11);--max:1140px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--white);font:15px/1.7 'DM Sans',sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button{font:inherit}button,a{ -webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:4px}::selection{background:var(--red);color:white}.container{width:min(var(--max),90%);margin-inline:auto}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}.section{padding:100px 0}.section.alt{background:#101015}.section-heading{max-width:730px;margin-bottom:38px}.section-heading h2{margin:10px 0 14px;font:800 clamp(32px,4vw,48px)/1.13 'Outfit',sans-serif;letter-spacing:-.03em}.section-heading h2 span{color:var(--gold)}.section-heading p,.muted{color:var(--muted)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:11px 23px;border-radius:6px;border:1px solid transparent;font-weight:700;font-size:13px;transition:.25s}.btn.primary{background:var(--red);color:#fff}.btn.primary:hover{background:#e14759;transform:translateY(-2px)}.btn.secondary{border-color:rgba(227,183,93,.65);color:var(--gold)}.btn.secondary:hover{background:rgba(227,183,93,.1);transform:translateY(-2px)}
+    .site-header{position:sticky;top:0;z-index:30;background:rgba(11,11,14,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{min-height:77px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font:800 24px 'Outfit',sans-serif;letter-spacing:-.035em;white-space:nowrap}.brand span{color:var(--gold)}.nav-links{display:flex;align-items:center;list-style:none;padding:0;margin:0;gap:24px}.nav-links a{font-size:12px;font-weight:700;color:#dfdfe4}.nav-links a:hover{color:var(--gold)}.nav-links .contact-link{color:var(--gold)}.menu-button{display:none;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:white;padding:8px 12px;cursor:pointer}
+    .hero{position:relative;overflow:hidden;padding:95px 0 100px;background:radial-gradient(circle at 80% 10%,rgba(204,51,69,.17),transparent 37%),radial-gradient(circle at 12% 90%,rgba(227,183,93,.075),transparent 32%)}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}.hero h1{font:800 clamp(48px,6.2vw,78px)/1.05 'Outfit',sans-serif;letter-spacing:-.055em;margin:16px 0 22px}.hero h1 span{color:var(--gold)}.hero .role{font:600 clamp(17px,2vw,20px)/1.5 'Outfit',sans-serif;color:#f5f5f6}.hero p{max-width:570px;color:var(--muted);margin:18px 0 29px}.actions{display:flex;gap:12px;flex-wrap:wrap}.hero-photo{position:relative;padding:12px;border:1px solid rgba(227,183,93,.38);border-radius:17px;background:linear-gradient(135deg,#242128,#121218);box-shadow:0 35px 70px rgba(0,0,0,.3)}.portrait{aspect-ratio:4/4.7;border-radius:10px;overflow:hidden;position:relative;background:#24212a}.portrait img{width:100%;height:100%;object-fit:cover}.photo-label{position:absolute;bottom:16px;left:16px;right:16px;padding:12px 15px;background:rgba(11,11,14,.87);backdrop-filter:blur(8px);border:1px solid rgba(227,183,93,.3);border-radius:7px}.photo-label strong{display:block;font:700 17px 'Outfit',sans-serif}.photo-label small{color:var(--gold)}.floating-tag{position:absolute;top:36px;right:-23px;background:var(--red);color:#fff;border-radius:6px;padding:9px 14px;font-size:12px;font-weight:700;box-shadow:0 10px 22px #0006}.quick-facts{border-block:1px solid var(--line);background:#141419}.facts-grid{display:grid;grid-template-columns:repeat(3,1fr)}.fact{text-align:center;padding:26px 10px;border-right:1px solid var(--line)}.fact:last-child{border-right:0}.fact strong{display:block;color:var(--gold);font:800 27px 'Outfit',sans-serif}.fact span{color:var(--muted);font-size:12px}
+    .about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:start}.about-copy p{color:var(--muted);margin:0 0 17px}.info-card{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--gold);padding:29px;border-radius:11px}.info-card h3{font:700 22px 'Outfit',sans-serif;margin:0 0 20px}.info-line{display:grid;grid-template-columns:100px minmax(0,1fr);gap:15px;padding:13px 0;border-bottom:1px solid var(--line)}.info-line:last-child{border-bottom:0}.info-line dt{font-size:12px;color:var(--gold);font-weight:700}.info-line dd{margin:0;overflow-wrap:anywhere;font-size:13px}.info-line a:hover{color:var(--gold)}
+    .services-grid,.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service-card{padding:28px;background:var(--panel);border:1px solid var(--line);border-radius:11px;transition:.25s}.service-card:hover,.project-card:hover{transform:translateY(-5px);border-color:rgba(227,183,93,.45)}.service-index{display:inline-flex;color:var(--red);font:800 14px 'Outfit',sans-serif;margin-bottom:22px}.service-card h3{font:700 21px 'Outfit',sans-serif;margin:0 0 9px}.service-card p{color:var(--muted);font-size:13px;margin:0}
+    .experience-card{border:1px solid var(--line);border-left:3px solid var(--red);border-radius:10px;background:var(--panel);padding:34px}.experience-top{display:flex;align-items:start;justify-content:space-between;gap:18px;flex-wrap:wrap}.experience-top h3{font:700 25px 'Outfit',sans-serif;margin:0}.experience-top p{color:var(--gold);margin:4px 0 17px}.pill{display:inline-block;border:1px solid rgba(227,183,93,.4);color:var(--gold);border-radius:50px;padding:5px 14px;font-size:12px}.experience-card ul{display:grid;grid-template-columns:repeat(2,1fr);gap:12px 35px;padding-left:18px;margin:8px 0 0;color:var(--muted);font-size:14px}.experience-card li::marker{color:var(--gold)}.experience-card b{color:var(--white)}
+    .projects-intro{display:flex;align-items:end;justify-content:space-between;gap:22px;flex-wrap:wrap}.projects-grid{margin-top:22px}.project-card{border:1px solid var(--line);border-radius:12px;background:var(--panel);overflow:hidden;transition:.25s}.project-preview{aspect-ratio:16/10;position:relative;display:grid;place-items:center;padding:20px;overflow:hidden}.project-preview.web{background:linear-gradient(130deg,#341a24,#15151a)}.project-preview.email{background:linear-gradient(135deg,#3a2717,#17151a)}.project-preview.social{background:linear-gradient(135deg,#261b39,#1a1419)}.project-preview.video{background:linear-gradient(140deg,#142c35,#21131b)}.project-preview.funnel{background:linear-gradient(145deg,#30201b,#17171b)}.project-preview.design{background:linear-gradient(135deg,#3a1726,#201821)}.mock-browser{width:88%;border:1px solid #ffffff45;border-radius:8px;overflow:hidden;box-shadow:0 16px 27px #0005}.mock-browser-top{height:19px;background:#e8e1d5;display:flex;align-items:center;gap:4px;padding:0 9px}.mock-browser-top i{height:5px;width:5px;border-radius:50%;background:#bbaeb0}.mock-browser-body{padding:19px 15px;background:#24242b;text-align:center}.mock-browser-body strong{display:block;font:800 22px 'Outfit',sans-serif;color:var(--gold)}.mock-browser-body span{font-size:10px;color:#ddd}.mock-browser-body em{display:block;background:var(--red);border-radius:4px;width:80px;height:10px;margin:12px auto 0}.mock-email{width:79%;background:#f4efe9;color:#1a1a20;border-radius:8px;padding:18px;box-shadow:0 20px 35px #0005}.mock-email small{font-size:9px;letter-spacing:.15em;color:#ac4656}.mock-email strong{display:block;font:800 24px/1.15 'Outfit',sans-serif;margin:8px 0}.mock-email div{height:7px;border-radius:4px;background:#c8c2bd;margin:7px 0}.mock-email .short{width:63%}.mock-social{width:58%;aspect-ratio:4/5;background:linear-gradient(145deg,#b43e4c,#211a29);border:2px solid #efca7d;border-radius:5px;display:grid;place-items:center;text-align:center;padding:14px;box-shadow:0 16px 30px #0006}.mock-social strong{font:800 29px/1.05 'Outfit',sans-serif}.mock-social span{font-size:10px;letter-spacing:.2em;color:#f2cc84}.mock-play{height:100px;width:100px;display:grid;place-items:center;border-radius:50%;border:2px solid var(--gold);font-size:40px;color:var(--gold);background:#0003}.mock-flow{display:flex;align-items:center;gap:8px}.mock-flow span{background:#28232a;border:1px solid var(--gold);padding:12px;border-radius:6px;font-weight:800;color:var(--gold)}.mock-flow i{color:var(--red);font-style:normal;font-weight:800}.mock-design{border:2px solid var(--gold);padding:23px;text-align:center;background:#180f16;transform:rotate(-5deg)}.mock-design strong{font:800 31px/1.05 'Outfit',sans-serif;display:block}.mock-design span{color:var(--gold);font-size:11px;letter-spacing:.18em}.project-info{padding:24px}.project-type{color:var(--gold);font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}.project-info h3{font:700 21px 'Outfit',sans-serif;margin:8px 0}.project-info p{font-size:13px;color:var(--muted);margin:0 0 16px}.project-tags{display:flex;gap:7px;flex-wrap:wrap}.project-tags span{font-size:11px;padding:5px 9px;background:#ffffff0b;border:1px solid var(--line);border-radius:4px}.sample-note{display:inline-block;border:1px solid rgba(227,183,93,.28);border-radius:5px;color:var(--gold);font-size:11px;padding:7px 10px;margin:8px 0 0}
+    .skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.skill-group{padding:28px;border:1px solid var(--line);background:var(--panel);border-radius:11px}.skill-group h3{font:700 20px 'Outfit',sans-serif;margin:0 0 18px}.tags{display:flex;flex-wrap:wrap;gap:9px}.tags span{font-size:12px;background:#ffffff0b;border:1px solid #ffffff1a;padding:8px 11px;border-radius:5px;color:#ddd}.objective{text-align:center;padding:45px;background:linear-gradient(120deg,#28181c,#15151b);border:1px solid rgba(227,183,93,.27);border-radius:12px}.objective p{color:#d2d2d9;max-width:800px;margin:0 auto}.contact-block{text-align:center;max-width:750px;margin:auto}.contact-block .section-heading{margin-inline:auto}.contact-block .section-heading p{margin:0 auto}.contact-block .actions{justify-content:center}.contact-details{margin-top:28px;color:var(--muted);font-size:13px}.contact-details a{color:var(--gold)}.footer{border-top:1px solid var(--line);padding:27px 0;background:#09090c}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer p{margin:0;font-size:12px;color:var(--muted)}.footer a{color:var(--gold);font-size:12px}
+    .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:980px){.nav-links{gap:14px}.hero-grid{gap:30px}.services-grid,.projects-grid{grid-template-columns:repeat(2,1fr)}.floating-tag{right:8px}.about-grid{gap:30px}}
+    @media(max-width:720px){.section{padding:75px 0}.menu-button{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:77px;background:#141419;border-bottom:1px solid var(--line);padding:22px 5%;flex-direction:column;align-items:start;gap:16px}.nav-links.open{display:flex}.hero{padding:70px 0}.hero-grid,.about-grid,.skills-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(43px,12vw,66px)}.hero-photo{max-width:460px;margin:auto}.facts-grid{grid-template-columns:repeat(3,1fr)}.fact strong{font-size:21px}.fact span{font-size:10px}.experience-card ul{grid-template-columns:1fr}.objective{padding:33px 22px}}
+    @media(max-width:520px){.services-grid,.projects-grid{grid-template-columns:1fr}.info-line{grid-template-columns:1fr;gap:3px}.experience-card{padding:25px}.footer-inner{justify-content:center;text-align:center}.floating-tag{top:20px}.project-preview{aspect-ratio:16/9}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+  
+    /* ===== 2026 PREMIUM VISUAL UPGRADE ===== */
+    :root {--gold:#e5b95f;--red:#d43c50;--line:rgba(255,255,255,.13)}
+    body {background-color:var(--bg); background-image:radial-gradient(ellipse at 50% 18%,rgba(139,27,40,.095),transparent 45%)}
+    .site-header {transition:background .35s, box-shadow .35s;}
+    .site-header.is-scrolled {background:rgba(9,9,13,.97);box-shadow:0 12px 35px rgba(0,0,0,.3)}
+    .nav-links a {position:relative;transition:color .25s}
+    .nav-links a:not(.contact-link)::after {content:"";position:absolute;bottom:-7px;left:0;width:0;height:2px;background:var(--gold);transition:width .3s}
+    .nav-links a:not(.contact-link):hover::after {width:100%}
+    .hero {min-height:min(820px,100svh);display:flex;align-items:center;isolation:isolate;background:#111014;}
+    .hero::before {content:"";position:absolute;inset:0;z-index:-2;background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=85');background-position:center;background-size:cover;opacity:.42;animation:heroZoom 22s ease-in-out infinite alternate}
+    .hero::after {content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(9,9,13,.96) 0%,rgba(9,9,13,.88) 42%,rgba(9,9,13,.55) 100%),linear-gradient(0deg,rgba(9,9,13,.78),transparent 32%)}
+    .hero .eyebrow {display:inline-flex;align-items:center;gap:12px;padding:8px 15px;border:1px solid rgba(229,185,95,.34);background:rgba(13,12,16,.43);border-radius:30px}
+    .hero h1 {text-wrap:balance;text-shadow:0 5px 32px #0009}
+    .hero h1 span {background:linear-gradient(110deg,#ffe3a1,var(--gold) 65%,#b68032);background-clip:text;-webkit-background-clip:text;color:transparent}
+    .hero .role {max-width:540px}
+    .hero-photo {transform:rotate(1deg);box-shadow:0 40px 90px #0009,0 0 0 7px rgba(227,183,93,.035);transition:transform .5s,box-shadow .5s}
+    .hero-photo:hover {transform:translateY(-8px) rotate(0deg);box-shadow:0 50px 100px #000b,0 0 38px rgba(227,183,93,.13)}
+    .hero-photo::after {content:"";position:absolute;inset:-2px;border:1px solid rgba(229,185,95,.3);border-radius:18px;pointer-events:none}
+    .floating-tag {animation:gentleFloat 4s ease-in-out infinite}
+    .section {position:relative}
+    .section-heading .eyebrow::before {content:"";display:inline-block;vertical-align:middle;width:21px;height:2px;background:var(--red);margin-right:10px}
+    .service-card,.project-card,.skill-group,.info-card,.experience-card {box-shadow:0 12px 28px rgba(0,0,0,.11);transition:transform .32s cubic-bezier(.2,.7,.2,1),box-shadow .32s,border-color .32s}
+    .service-card {position:relative;overflow:hidden}
+    .service-card::after {content:"";position:absolute;height:3px;left:0;right:100%;top:0;background:linear-gradient(90deg,var(--red),var(--gold));transition:right .4s}
+    .service-card:hover::after {right:0}
+    .service-card:hover,.project-card:hover,.skill-group:hover {transform:translateY(-7px);box-shadow:0 20px 45px rgba(0,0,0,.28)}
+    .project-preview {overflow:hidden}
+    .project-preview::after {content:"";position:absolute;inset:0;background:linear-gradient(125deg,transparent 25%,rgba(255,255,255,.10) 50%,transparent 75%);transform:translateX(-130%);transition:transform .8s;pointer-events:none}
+    .project-card:hover .project-preview::after {transform:translateX(130%)}
+    .mock-browser,.mock-email,.mock-social,.mock-play,.mock-flow,.mock-design {transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+    .project-card:hover .mock-browser,.project-card:hover .mock-email,.project-card:hover .mock-social,.project-card:hover .mock-play,.project-card:hover .mock-flow,.project-card:hover .mock-design {transform:scale(1.07)}
+    .project-card:hover .mock-design {transform:rotate(-2deg) scale(1.07)}
+    .real-project-image {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;opacity:0;transition:opacity .4s,transform .6s}
+    .real-project-image.loaded {opacity:1}
+    .project-card:hover .real-project-image.loaded {transform:scale(1.06)}
+    .project-preview:has(.real-project-image.loaded)::after {z-index:3}
+    .project-open {display:inline-flex;gap:7px;align-items:center;margin-top:15px;color:var(--gold);font-weight:700;font-size:12px;transition:color .2s}
+    .project-open:hover {color:white}
+    .video-preview {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3;background:#100f14}
+    .video-hint {font-size:11px;color:var(--muted);margin:8px 0 0}
+    .quick-facts {position:relative;z-index:1}
+    .objective {background:linear-gradient(135deg,rgba(51,23,29,.95),rgba(17,17,23,.96));box-shadow:0 25px 65px #0003}
+    .contact {position:relative}
+    #contact {background:radial-gradient(ellipse at 50% 100%,rgba(204,51,69,.12),transparent 62%)}
+    .reveal {transform:translateY(35px);filter:blur(4px);transition:opacity .85s ease,transform .85s cubic-bezier(.2,.65,.2,1),filter .85s ease}
+    .reveal.visible {transform:none;filter:blur(0)}
+    .services-grid .reveal:nth-child(2),.projects-grid .reveal:nth-child(2) {transition-delay:.07s}
+    .services-grid .reveal:nth-child(3),.projects-grid .reveal:nth-child(3) {transition-delay:.14s}
+    @keyframes heroZoom {from{transform:scale(1)}to{transform:scale(1.10)}}
+    @keyframes gentleFloat {0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @media(max-width:720px){.hero{min-height:auto}.hero::after{background:linear-gradient(90deg,rgba(9,9,13,.96),rgba(9,9,13,.76))}.hero-photo{transform:none}.hero-photo:hover{transform:translateY(-3px)}.floating-tag{right:0}.section-heading h2{text-wrap:balance}}
+    @media(prefers-reduced-motion:reduce){.hero::before,.floating-tag{animation:none!important}.reveal{filter:none!important;transform:none!important}.real-project-image{transition:none!important}}
+  
+    /* Original ROSAS mark adapted to light ink for the dark header. */
+    .rosas-brand{display:inline-flex;align-items:center;flex-shrink:0;line-height:1}
+    .rosas-brand img{height:66px;width:auto;max-width:180px;object-fit:contain;transition:filter .3s ease,transform .3s ease}
+    .rosas-brand:hover img{filter:drop-shadow(0 0 10px rgba(229,185,95,.5));transform:translateY(-2px)}
+    .footer-logo img{height:76px;max-width:210px}
+    @media(max-width:720px){.rosas-brand img{height:56px;max-width:140px}.footer-logo img{height:70px}}
+</style>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand rosas-brand" href="#home" aria-label="Rosas, Rose Ann portfolio home"><img src="images/rosas-logo-light.png" alt="ROSAS rose logo" width="176" height="88"></a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a class="contact-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">Virtual Assistant · Digital Creative</div>
+          <h1>Helping brands <span>look better.</span><br>Work smarter.</h1>
+          <div class="role">Hi, I'm Rose Ann T. Tantiado.<br>Virtual Assistant · Website Builder · Social Media Manager · Digital Marketing Assistant</div>
+          <p>I'm an Information Technology graduate with one year of Virtual Assistant experience. I help businesses improve their online presence through GoHighLevel websites, email marketing, social media management, and creative content.</p>
+          <div class="actions"><a class="btn primary" href="#projects">View My Work ↗</a><a class="btn secondary" href="#contact">Get In Touch</a></div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="portrait">
+            <!-- Professional portrait saved locally for GitHub Pages. -->
+            <img src="images/rose-ann.jpg" alt="Professional portrait of Rose Ann T. Tantiado" width="1080" height="1350" fetchpriority="high">
+            <div class="photo-label"><strong>Rose Ann T. Tantiado</strong><small>Virtual Assistant & Digital Creative</small></div>
+          </div>
+          <div class="floating-tag">Available for opportunities</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="quick-facts"><div class="container facts-grid"><div class="fact"><strong>1 Year</strong><span>VA Experience</span></div><div class="fact"><strong>IT</strong><span>Graduate</span></div><div class="fact"><strong>GHL</strong><span>Website & Funnel Tools</span></div></div></div>
+
+    <section class="section" id="about"><div class="container about-grid">
+      <div class="reveal about-copy"><div class="eyebrow">About Me</div><div class="section-heading"><h2>Practical support. <span>Creative results.</span></h2></div>
+        <p>I am a motivated and detail-oriented Information Technology graduate with one year of experience as a Virtual Assistant. I specialize in website creation using GoHighLevel (GHL), email marketing campaigns, content creation, and social media management.</p>
+        <p>My hands-on experience includes building websites and landing pages, designing flyers and carousels, editing reels, managing social accounts, and supporting online promotions.</p>
+        <p>I work with GoHighLevel, Canva, Adobe Lightroom, and CapCut. I value clear communication, organization, adaptability, and delivering quality work.</p>
+      </div>
+      <aside class="info-card reveal" aria-label="Personal information"><h3>Personal Information</h3><dl>
+        <div class="info-line"><dt>Full Name</dt><dd>Rose Ann T. Tantiado</dd></div>
+        <div class="info-line"><dt>Location</dt><dd>Tondo, Manila, Philippines</dd></div>
+        <div class="info-line"><dt>Email</dt><dd><a href="mailto:roseanntantiado24@gmail.com">roseanntantiado24@gmail.com</a></dd></div>
+        <div class="info-line"><dt>Phone</dt><dd><a href="tel:+639062566801">09062566801</a></dd></div>
+      </dl></aside>
+    </div></section>
+
+    <section class="section alt" id="services"><div class="container"><div class="section-heading reveal"><div class="eyebrow">What I Do</div><h2>Services I <span>Provide</span></h2><p>Flexible support for websites, promotional campaigns, and social content.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span class="service-index">01 / WEB</span><h3>Website & Funnel Building</h3><p>Build and manage responsive websites, landing pages, and marketing funnels in GoHighLevel.</p></article>
+        <article class="service-card reveal"><span class="service-index">02 / EMAIL</span><h3>Email Marketing</h3><p>Prepare email campaigns and promotional blasts for announcements, launches, and events.</p></article>
+        <article class="service-card reveal"><span class="service-index">03 / SOCIAL</span><h3>Social Media Management</h3><p>Plan and schedule posts, publish content, manage accounts, and maintain engagement.</p></article>
+        <article class="service-card reveal"><span class="service-index">04 / DESIGN</span><h3>Graphic Design</h3><p>Create flyers, carousels, and marketing assets for digital promotions.</p></article>
+        <article class="service-card reveal"><span class="service-index">05 / VIDEO</span><h3>Reels & Video Editing</h3><p>Edit short-form videos and reels for social platforms with tools including CapCut.</p></article>
+        <article class="service-card reveal"><span class="service-index">06 / SUPPORT</span><h3>Marketing Assistance</h3><p>Support campaign tasks, event registration pages, file organization, and digital operations.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section" id="experience"><div class="container"><div class="section-heading reveal"><div class="eyebrow">Experience</div><h2>Professional <span>Background</span></h2></div><article class="experience-card reveal"><div class="experience-top"><div><h3>Virtual Assistant</h3><p>Digital Marketing, Website Management & Social Media Support</p></div><span class="pill">1 Year Experience</span></div><ul>
+      <li><b>Website Creation:</b> Built and maintained websites, landing pages, and funnels using GHL.</li>
+      <li><b>Email Marketing:</b> Created promotional email campaigns and email blasts.</li>
+      <li><b>Content Creation:</b> Designed flyers, graphics, and social media carousels.</li>
+      <li><b>Video Editing:</b> Created and edited reels and short-form videos.</li>
+      <li><b>Social Media:</b> Managed accounts, posting calendars, and online engagement.</li>
+      <li><b>Marketing Support:</b> Assisted with campaigns, promotions, and event registrations.</li>
+    </ul></article></div></section>
+
+    <section class="section alt" id="projects"><div class="container"><div class="projects-intro"><div class="section-heading reveal"><div class="eyebrow">Selected Work</div><h2>Featured <span>Projects</span></h2><p>A showcase of my services and project categories. Add screenshots and video of completed work using the image and video folders.</p></div></div>
+      <div class="projects-grid">
+        <!-- PROJECT 1: Replace preview art with <img src="images/project-website.jpg" alt="Screenshot of my GHL website project"> and edit the text. -->
+        <article class="project-card reveal"><div class="project-preview web"><img class="real-project-image" src="images/project-website.jpg" alt="Website project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-browser"><div class="mock-browser-top"><i></i><i></i><i></i></div><div class="mock-browser-body"><strong>YOUR BRAND</strong><span>Landing page project preview</span><em></em></div></div></div><div class="project-info"><div class="project-type">Website · Sample Slot</div><h3>GoHighLevel Website</h3><p>Add a screenshot of a website or landing page you built, plus the client's goal and your responsibilities.</p><div class="project-tags"><span>GoHighLevel</span><span>Landing Pages</span></div><span class="sample-note">Replace with completed work</span></div></article>
+        <!-- PROJECT 2 -->
+        <article class="project-card reveal"><div class="project-preview email"><img class="real-project-image" src="images/project-email.jpg" alt="Email project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-email"><small>CAMPAIGN PREVIEW</small><strong>Big News<br>Starts Here.</strong><div></div><div></div><div class="short"></div></div></div><div class="project-info"><div class="project-type">Marketing · Sample Slot</div><h3>Email Campaign Design</h3><p>Show an email blast or newsletter you created, along with the campaign objective and platform used.</p><div class="project-tags"><span>Email Marketing</span><span>Campaign Design</span></div><span class="sample-note">Replace with completed work</span></div></article>
+        <!-- PROJECT 3 -->
+        <article class="project-card reveal"><div class="project-preview social"><img class="real-project-image" src="images/project-social.jpg" alt="Social project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-social"><div><span>SOCIAL MEDIA</span><strong>CREATE<br>ENGAGE<br>GROW</strong></div></div></div><div class="project-info"><div class="project-type">Design · Sample Slot</div><h3>Social Media Graphics</h3><p>Add flyers, carousels, or promotional posts you designed for social media.</p><div class="project-tags"><span>Canva</span><span>Carousel Design</span></div><span class="sample-note">Replace with completed work</span></div></article>
+        <!-- PROJECT 4: To display a playable video, insert <video class="video-preview" controls playsinline preload="metadata" poster="images/project-video.jpg"><source src="videos/reel-project.mp4" type="video/mp4"></video> inside .project-preview.video after the mock-play div. -->
+        <article class="project-card reveal"><div class="project-preview video"><img class="real-project-image" src="images/project-video.jpg" alt="Video project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-play" aria-hidden="true">▶</div></div><div class="project-info"><div class="project-type">Video · Sample Slot</div><h3>Short-Form Reels Editing</h3><p>Add a thumbnail and a link to a reel you edited, describing the editing style and intended audience.</p><div class="project-tags"><span>CapCut</span><span>Reels</span></div><span class="sample-note">Replace with completed work</span></div></article>
+        <!-- PROJECT 5 -->
+        <article class="project-card reveal"><div class="project-preview funnel"><img class="real-project-image" src="images/project-funnel.jpg" alt="Funnel project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-flow"><span>PAGE</span><i>→</i><span>FORM</span><i>→</i><span>LEAD</span></div></div><div class="project-info"><div class="project-type">Funnel · Sample Slot</div><h3>Lead Generation Funnel</h3><p>Show a funnel flow, registration page, or lead capture project built with GHL.</p><div class="project-tags"><span>Funnels</span><span>GoHighLevel</span></div><span class="sample-note">Replace with completed work</span></div></article>
+        <!-- PROJECT 6 -->
+        <article class="project-card reveal"><div class="project-preview design"><img class="real-project-image" src="images/project-flyer.jpg" alt="Flyer project screenshot" loading="lazy" onload="this.classList.add('loaded')" onerror="this.remove()"><div class="mock-design"><span>EVENT PROMO</span><strong>YOUR<br>EVENT</strong></div></div><div class="project-info"><div class="project-type">Creative · Sample Slot</div><h3>Promotional Flyer</h3><p>Replace this sample with your event flyer and explain the audience, design brief, and assets delivered.</p><div class="project-tags"><span>Canva</span><span>Flyer Design</span></div><span class="sample-note">Replace with completed work</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section" id="skills"><div class="container"><div class="section-heading reveal"><div class="eyebrow">Tools & Expertise</div><h2>Technical <span>Skills</span></h2></div><div class="skills-grid">
+      <div class="skill-group reveal"><h3>Website & Funnel Development</h3><div class="tags"><span>GoHighLevel (GHL)</span><span>Website Creation</span><span>Landing Pages</span><span>Funnel Building</span></div></div>
+      <div class="skill-group reveal"><h3>Digital Marketing</h3><div class="tags"><span>Email Blasts</span><span>Email Campaigns</span><span>Social Media Management</span><span>Content Scheduling</span></div></div>
+      <div class="skill-group reveal"><h3>Creative & Design</h3><div class="tags"><span>Canva</span><span>Flyer Design</span><span>Carousels</span><span>Reels Editing</span><span>Adobe Lightroom</span><span>CapCut</span></div></div>
+      <div class="skill-group reveal"><h3>Administration & Computers</h3><div class="tags"><span>Microsoft Word</span><span>Excel</span><span>PowerPoint</span><span>File Management</span><span>Basic Troubleshooting</span><span>Time Management</span><span>Communication</span></div></div>
+    </div></div></section>
+
+    <section class="section alt" id="objective"><div class="container"><div class="objective reveal"><div class="section-heading" style="margin-inline:auto"><div class="eyebrow">My Goal</div><h2>Career <span>Objective</span></h2></div><p>To pursue opportunities as a Virtual Assistant or Digital Marketing Assistant where I can apply my experience in website creation, email marketing, content creation, and social media management. I aim to help businesses grow their online presence through creative solutions, efficient task management, and continuous professional development.</p></div></div></section>
+
+    <section class="section" id="contact"><div class="container contact-block reveal"><div class="section-heading"><div class="eyebrow">Contact</div><h2>Let's <span>Work Together.</span></h2><p>Looking for a detail-oriented Virtual Assistant or digital marketing partner? Get in touch to discuss your project.</p></div><div class="actions"><a class="btn primary" href="mailto:roseanntantiado24@gmail.com?subject=Portfolio%20Inquiry">Email Me ↗</a><a class="btn secondary" href="tel:+639062566801">Call Me</a></div><p class="contact-details">Tondo, Manila, Philippines<br><a href="mailto:roseanntantiado24@gmail.com">roseanntantiado24@gmail.com</a> · <a href="tel:+639062566801">09062566801</a></p></div></section>
+  </main>
+  <!-- TO CUSTOMIZE:
+       1. Create an images folder next to index.html.
+       2. Add your professional portrait and edit the portrait img src to images/rose-ann.jpg.
+       3. Add project-website.jpg, project-email.jpg, project-social.jpg,
+          project-video.jpg, project-funnel.jpg, and project-flyer.jpg.
+       4. Add your MP4 to videos/reel-project.mp4 and use the example in PROJECT 4.
+       5. To use a local hero background image, edit .hero::before background-image
+          to url('images/hero-background.jpg').
+       6. Replace every Sample Slot and placeholder description with your own work.
+  -->
+  <footer class="footer"><div class="container footer-inner"><a class="brand rosas-brand footer-logo" href="#home" aria-label="Back to home"><img src="images/rosas-logo-light.png" alt="ROSAS rose logo" width="176" height="88"></a><p>© <span id="year"></span> Rose Ann T. Tantiado. All rights reserved.</p><a href="#home">Back to top ↑</a></div></footer>
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const header=document.querySelector('.site-header');
+    const updateHeader=()=>header.classList.toggle('is-scrolled',window.scrollY>24);
+    window.addEventListener('scroll',updateHeader,{passive:true});updateHeader();
+    const menu=document.getElementById('menuButton');
+    const nav=document.getElementById('navLinks');
+    function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰';}
+    menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕':'☰';});
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+    const cards=document.querySelectorAll('.reveal');
+    if('IntersectionObserver' in window){const observer=new IntersectionObserver((entries,obs)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');obs.unobserve(entry.target);}});},{threshold:.08});cards.forEach(card=>observer.observe(card));}else{cards.forEach(card=>card.classList.add('visible'));}
+  </script>
+</body>
+</html>
